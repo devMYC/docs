@@ -61,7 +61,7 @@ Hilla allows to configure the following url parts:
 The default value is `connect`. To change it to some other value, provide
 `application.properties` file in the project resources:
 `src/main/resources/application.properties` and set the
-`vaadin.connect.prefix` property to the new value.
+`vaadin.endpoint.prefix` property to the new value.
 
 * `${endpoint_name}`
 By default, the Java class simple name is taken. It is possible to specify a value in
